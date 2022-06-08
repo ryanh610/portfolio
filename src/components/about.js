@@ -1,11 +1,12 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
+import headshot from './images/headshot.jpg'
 
 class AboutMe extends React.Component {
   render() {
     return (
       <Card style={{ width: "18rem",  }}>
-        <Card.Img variant="top" src="headshot.jpg" className="img-fluid"  />
+        <Card.Img variant="top" src={headshot} className="img-fluid"  />
         <Card.Body>
           <Card.Title>About Me</Card.Title>
           <Card.Text>
