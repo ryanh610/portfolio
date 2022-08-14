@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from './components/Navbar';
 import Footer from './components/footer'; 
 import Home from './pages/home';
-import Portfolio from './pages/portfolio';
+import Projects from './pages/projects';
 import ContactForm from './pages/contact';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<ContactForm />} />
       </Routes>
       <Footer />
