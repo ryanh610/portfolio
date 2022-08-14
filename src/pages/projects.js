@@ -1,10 +1,10 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 
-const Portfolio = () => {
+const Projects = () => {
     return (
-      <div class="d-inliine-flex">
-        <Card style={{ width: "18rem" }}>
+      <div style={{ display: "flex", }}>
+        <Card style={{ width: "30rem", margin: "2rem" }}>
           <Card.Img variant="top" src="" className="img-fluid" />
           <Card.Body>
             <Card.Title>Philly Planner</Card.Title>
@@ -13,10 +13,10 @@ const Portfolio = () => {
               full-stack app utilizing React, Mongo, and GraphQL. Philly
               Planner's purpose is to provide guests with panning dinner events.
             </Card.Text>
-            <Button variant="primary" href="https://ryanh610.github.io/nba-wizard/">Check it out</Button>
+            <Button variant="primary" href="https://fierce-hollows-17492.herokuapp.com/">Check it out</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "30rem", margin: "2rem" }}>
           <Card.Img variant="top" src="" className="img-fluid" />
           <Card.Body>
             <Card.Title>Markdown Generator</Card.Title>
@@ -26,7 +26,7 @@ const Portfolio = () => {
             <Button variant="primary" href="https://ryanh610.github.io/mdGenerator/">Check it out</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem",  }}>
+        <Card style={{ width: "30rem", margin: "2rem" }}>
         <Card.Img variant="top" src="" className="img-fluid"  />
         <Card.Body>
           <Card.Title>Coding Quiz</Card.Title>
@@ -36,7 +36,7 @@ const Portfolio = () => {
           <Button variant="primary" href="https://ryanh610.github.io/code-quiz/">Check it out</Button>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem",  }}>
+      <Card style={{ width: "30rem", margin: "2rem" }}>
         <Card.Img variant="top" src="" className="img-fluid"  />
         <Card.Body>
           <Card.Title>Weather Dashboard</Card.Title>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <Button variant="primary" href="https://ryanh610.github.io/weather-dashboard/">Check it out</Button>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem",  }}>
+      <Card style={{ width: "30rem", margin: "2rem" }}>
         <Card.Img variant="top" src="" className="img-fluid"  />
         <Card.Body>
           <Card.Title>Auto Auction</Card.Title>
@@ -56,7 +56,7 @@ const Portfolio = () => {
           <Button variant="primary" href="https://ryanh610.github.io/autoAuction/">Check it out</Button>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem",  }}>
+      <Card style={{ width: "30rem", margin: "2rem" }}>
         <Card.Img variant="top" src="" className="img-fluid"  />
         <Card.Body>
           <Card.Title>NBA Wizard</Card.Title>
@@ -70,4 +70,4 @@ const Portfolio = () => {
     );
 }
 
-export default Portfolio;
+export default Projects;
